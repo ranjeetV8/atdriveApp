@@ -12,11 +12,24 @@ This is a simple full-stack CRUD (Create, Read, Update, Delete) application usin
 - Backend: Node.js + Express
 - Database: MySQL
 
-## 📁 Project Structure
 
-atdriveApp/
-├── client/ # React frontend
-├── server/ # Node.js + Express backend
-├── database/ # SQL schema and seed files (optional)
-└── README.md
+---
+
+##  Features
+
+- User registration & login (with authentication)
+- Add, update, delete products
+- MySQL database integration
+- RESTful API with Express
+
+---
+
+## 🛠 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ranjeetV8/atdriveApp.git
+cd atdriveApp
+
 
