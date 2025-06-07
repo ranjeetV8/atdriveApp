@@ -32,4 +32,65 @@ This is a simple full-stack CRUD (Create, Read, Update, Delete) application usin
 git clone https://github.com/ranjeetV8/atdriveApp.git
 cd atdriveApp
 
+```
+
+### 2. Setup the Backend
+
+```
+cd server
+npm install
+
+```
+### Configure the Database
+
+```
+const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: 'your_password',
+  database: 'atdriveDB',
+});
+```
+
+## Start the Backend Server
+
+```
+node server.js
+
+```
+
+### Setup the Frontend
+
+```
+ cd ../client
+npm install
+npm start
+```
+
+# Usage 
+
+1. Register or login to your account.
+
+2 .Perform CRUD operations on products.
+
+3 .Data is stored in MySQL and fetched using REST API.
+
+## Dependencies
+
+Backend:
+- express
+
+- mysql
+
+- cors
+
+- body-parser
+
+Frontend:
+- react
+
+- axios
+
+- react-router-dom
+
 
